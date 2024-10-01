@@ -12,7 +12,7 @@ public class RentalCarCalculator {
 
         // Using methods to not use Scanner repeatedly on same type of variables
         String pickupDate = promptForString("When is the pickup date? ");
-        short numberOfDays = promptForShort("Number of days renting= ");
+        short numberOfDays = promptForShort("Number of days renting: ");
         boolean needsTollTag = promptForBoolean("Do you want an Electronic toll tag at $3.95/day? ");
         boolean needGPS = promptForBoolean("Do you want a GPS at $2.95/day? ");
         boolean needsRoadsideAssistance = promptForBoolean("Do you want a Roadside Assistance at $3.95/day? ");
